@@ -19,7 +19,7 @@ The app is designed to streamline studying, making it easier to learn and review
 To run the app locally:
 
 ```bash
-git clone https://github.com/yourusername/ai-study-tool.git
-cd ai-study-tool
+git clone https://github.com/EricQXu/studify.git
+cd studify
 npm install
 npm run dev
