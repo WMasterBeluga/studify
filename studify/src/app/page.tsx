@@ -68,31 +68,61 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <Image src="/Yale_University_logo.svg.png" alt="Harvard Shield" width={85} height={85} className="object-contain"/>
           </div>
+          <div className="flex justify-center items-center">
+            <Image src="/NYU-Logo.png" alt="Harvard Shield" width={145} height={145} className="object-contain"/>
+          </div>
+          <div className="flex justify-center items-center">
+            <Image src="/university-of-michigan-logo-55B0FE825E-seeklogo.com.png" alt="MIT Logo" width={75} height={75} className="object-contain"/>
+          </div>
+          <div className="flex justify-center items-center">
+            <Image src="/pngtree-columbia-university-png-image_7775958.png" alt="Harvard Shield" width={85} height={85} className="object-contain"/>
+          </div>
+          <div className="flex justify-center items-center">
+            <Image src="/UniversityofPennsylvania_FullLogo_RGB-4_0.png" alt="MIT Logo" width={145} height={145} className="object-contain"/>
+          </div>
+          <div className="flex justify-center items-center">
+            <Image src="/Cornell_University_Logo.png" alt="Harvard Shield" width={85} height={85} className="object-contain"/>
+          </div>
+          <div className="flex justify-center items-center">
+            <Image src="/kisspng-university-of-illinois-at-chicago-northwestern-uni-state-polytechnic-of-jember-5b3eccb721e153.5015009615308422951388.jpg" alt="Harvard Shield" width={85} height={85} className="object-contain"/>
+          </div>
         </div>
       </div>
 
+     
       <div className="mx-4 my-11">
-        <h1 className="text-2xl font-normal text-white my-2">
-          Solve
-        </h1>
+        <h1 className="text-2xl font-normal text-white my-2">Solve</h1>
         <h2 className="text-3xl font-semibold text-white my-2">
           A world class tutor at your fingertips
         </h2>
+        <div className="flex space-x-4 my-4">
+          <span className="px-4 py-2 rounded-full bg-purple-950 text-purple-400 text-sm font-medium shadow-md hover:bg-purple-600 transition">
+            Math
+          </span>
+          <span className="px-4 py-2 rounded-full bg-green-950 text-green-400 text-sm font-medium shadow-md hover:bg-green-600 transition">
+            Science
+          </span>
+          <span className="px-4 py-2 rounded-full bg-orange-950 text-orange-400 text-sm font-medium shadow-md hover:bg-orange-600 transition">
+            English
+          </span>
+          <span className="px-4 py-2 rounded-full bg-blue-950 text-blue-400 text-sm font-medium shadow-md hover:bg-blue-600 transition">
+            History
+          </span>
+          <span className="px-4 py-2 rounded-full bg-purple-950 text-purple-400 text-sm font-medium shadow-md hover:bg-purple-800 transition">
+            Language
+          </span>
+        </div>
+        <div className="h-60 outline-1 outline-white border-white rounded-md">
+
+        </div>
         <p>
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Dignissim in condimentum, suscipit taciti luctus sodales convallis primis nascetur. Posuere gravida mi convallis, dolor donec purus. Consequat interdum metus nunc ultrices vehicula! Ornare varius elit, parturient habitant integer sem risus proin nec? Convallis urna nascetur conubia litora vestibulum? Felis class risus nulla elit himenaeos magnis. Orci est augue nam dolor, curabitur varius. Est vitae integer facilisi vivamus elementum lectus potenti. Malesuada odio pharetra sollicitudin himenaeos lacinia odio. Elementum luctus accumsan aptent dictumst suspendisse luctus ullamcorper in amet. Rutrum vulputate penatibus ante ornare ligula ligula? Erat dictumst condimentum hendrerit habitasse a turpis venenatis amet. Eget enim integer erat feugiat posuere. Feugiat sapien ac augue vestibulum; est elementum ut.
+          Lorem ipsum odor amet, consectetuer adipiscing elit. Dignissim in condimentum, suscipit taciti luctus sodales convallis primis nascetur. Posuere gravida mi convallis, dolor donec purus. Consequat interdum metus nunc ultrices vehicula! Ornare varius elit, parturient habitant integer sem risus proin nec? Convallis urna nascetur conubia litora vestibulum? Felis class risus nulla elit himenaeos magnis. Orci est augue nam dolor, curabitur varius. Est vitae integer facilisi vivamus elementum lectus potenti. Malesuada odio pharetra sollicitudin himenaeos lacinia odio. Elementum luctus accumsan aptent dictumst suspendisse luctus ullamcorper in amet. Rutrum vulputate penatibus ante ornare ligula ligula? Erat dictumst condimentum hendrerit habitasse a turpis venenatis amet. Eget enim integer erat feugiat posuere. Feugiat sapien ac augue vestibulum; est elementum ut.
         </p>
+        <div>
+        </div>
       </div>
-      <div className="mx-4 my-11">
-        <h1 className="text-2xl font-normal text-white my-2">
-          Solve
-        </h1>
-        <h2 className="text-3xl font-semibold text-white my-2">
-          A world class tutor at your fingertips
-        </h2>
-        <p>
-        Lorem ipsum odor amet, consectetuer adipiscing elit. Dignissim in condimentum, suscipit taciti luctus sodales convallis primis nascetur. Posuere gravida mi convallis, dolor donec purus. Consequat interdum metus nunc ultrices vehicula! Ornare varius elit, parturient habitant integer sem risus proin nec? Convallis urna nascetur conubia litora vestibulum? Felis class risus nulla elit himenaeos magnis. Orci est augue nam dolor, curabitur varius. Est vitae integer facilisi vivamus elementum lectus potenti. Malesuada odio pharetra sollicitudin himenaeos lacinia odio. Elementum luctus accumsan aptent dictumst suspendisse luctus ullamcorper in amet. Rutrum vulputate penatibus ante ornare ligula ligula? Erat dictumst condimentum hendrerit habitasse a turpis venenatis amet. Eget enim integer erat feugiat posuere. Feugiat sapien ac augue vestibulum; est elementum ut.
-        </p>
-      </div>
+
+
       <div className="mx-4 my-11">
         <h1 className="text-2xl font-normal text-white my-2">
           Solve
