@@ -12,9 +12,10 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="mt-5 sm:mt-10 md:mt-15 lg:mt-20">
-          <h1 className="text-center text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-bold mt-8 mb-8 text-black">
-            Study Less, Ace More
-          </h1>
+        <h1 className="text-center text-4xl sm:text-5xl md:text-5xl lg:text-7xl font-bold mt-8 mb-8 text-black">
+          Study <span className="text-blue-500">Less</span>, Ace <span className="text-blue-500">More</span>
+        </h1>
+
           <h2 className="text-center font-base text-sm sm:text-md md:text-lg text-neutral-400">
             Instantly solve your homework, summarize and transribe lectures, and create study guides from any document. Say hello to your all in one study companion.
           </h2>
@@ -22,7 +23,7 @@ export default function Home() {
 
         {/* Sign Up Button */}
         <div className="flex justify-center mt-8 mb-2">
-          <div className="px-8 py-3 bg-black rounded-full text-center">
+          <div className="px-8 py-3 bg-blue-500 rounded-full text-center">
             <h2 className="font-semibold text-white text-xs sm:text-sm md:text-base">Sign up for free</h2>
           </div>
         </div>
@@ -35,22 +36,22 @@ export default function Home() {
         </div>
 
         {/* Feature Cards */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-7 justify-center mt-16 mb-32  mx-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6  md:gap-8 justify-center mt-2 sm:mt-10 mb-14  mx-4">
           <div className=" h-20 sm:h-40 px-7 py-7 rounded-xl">
-            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-4">Solve</h1>
-            <p className="text-neutral-400 text-sm sm:text-base">
+            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-3">Solve</h1>
+            <p className="text-neutral-400 text-xs sm:text-base">
               Conquer your toughest homework challenges with our powerful AI assistant.
             </p>
           </div>
-          <div className="h-20 sm:h-40 px-7 py-7 rounded-xl">
-            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-4">Study</h1>
-            <p className="text-neutral-400 text-sm sm:text-base">
+          <div className="h-20 sm:h-40 px-7 py-7 rounded-xl ">
+            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-3">Study</h1>
+            <p className="text-neutral-400 text-xs sm:text-base">
               Elevate your study sessions—experience personalized learning with intelligent AI guidance.
             </p>
           </div>
           <div className=" h-20 sm:h-40 px-7 py-7 rounded-xl">
-            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-4">Summarize</h1>
-            <p className="text-neutral-400 text-sm sm:text-base">
+            <h1 className="text-xl sm:text-2xl font-semibold text-black mb-3">Summarize</h1>
+            <p className="text-neutral-400 text-xs sm:text-base">
               Unlock insights effortlessly as our AI converts videos into concise notes.
             </p>
           </div>
@@ -61,7 +62,7 @@ export default function Home() {
 
         {/* Solve Section */}
         <div className="mx-4 my-11">
-          <h1 className="text-xl sm:text-2xl font-base text-black my-2">Solve</h1>
+          <h1 className="text-lg sm:text-xl font-base text-black my-2">Solve</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
             A world-class tutor at your fingertips
           </h2>
@@ -78,7 +79,7 @@ export default function Home() {
 
         {/* Study Section */}
         <div className="mx-4 my-11">
-          <h1 className="text-xl sm:text-2xl font-base text-black my-2">Study</h1>
+          <h1 className="text-lg sm:text-xl font-base text-black my-2">Study</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
             Personalized Study Sessions Tailored Just for You
           </h2>
@@ -95,7 +96,7 @@ export default function Home() {
 
         {/* Learn Section */}
         <div className="mx-4 my-11">
-          <h1 className="text-xl sm:text-2xl font-base text-black my-2">Summarize</h1>
+          <h1 className="text-lg sm:text-xl font-base text-black my-2">Summarize</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
             Effortless Video-to-Text Summaries
           </h2>

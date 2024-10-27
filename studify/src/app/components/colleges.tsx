@@ -5,7 +5,7 @@ import Image from "next/image";
 export default function colleges() {
   return (
     <div className="text-center justify-center text-lg sm:text-xl font-normal">
-          <h2 className="font-semibold">Trusted by 1,000+ students at these top universities</h2>
+          <h2 className="font-semibold">Trusted by <span className="text-blue-500">1000+</span> students at these top universities</h2>
           <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-5 justify-center mt-8">
             {/* University Logos */}
             <div className="flex justify-center items-center">
