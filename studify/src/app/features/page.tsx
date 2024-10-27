@@ -1,5 +1,7 @@
 import Image from "next/image";
-import Navbar from "/src/app/Navbar.tsx";
+import Navbar from "../components/Navbar"; 
+import Footer from "../components/footer"
+
 
 export default function Home() {
   return (
@@ -11,6 +13,7 @@ export default function Home() {
 
 
         </div>
+        <Footer />
       </div>
     </div>
   );
