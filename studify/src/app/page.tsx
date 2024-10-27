@@ -1,6 +1,6 @@
 // src/app/page.tsx
 import Image from "next/image";
-import Navbar from "./Navbar"; // Adjust the path if necessary
+import Navbar from "./Navbar"; 
 
 export default function Home() {
   return (
@@ -192,8 +192,7 @@ export default function Home() {
             <span className="px-4 py-2 rounded-full bg-purple-950 text-purple-400 text-xs sm:text-sm font-medium shadow-md hover:bg-purple-600 transition">
               Powered by GPT-4o mini
             </span>
-            {/* Add other tags similarly */}
-            {/* ... */}
+           
           </div>
           <p className="text-sm sm:text-base text-neutral-300">
             Master your toughest homework problems with AI precision. Our advanced AI solver tackles complex assignments effortlessly, breaking down even the most challenging problems step by step. This empowers you to grasp difficult concepts and excel academically. By providing detailed solutions and explanations, it enhances your understanding and problem-solving skills, making learning more effective and less stressful. Powered by cutting-edge artificial intelligence and machine learning algorithms, our solver analyzes and solves problems across various subjects, giving you the edge you need to succeed.
@@ -210,8 +209,8 @@ export default function Home() {
             <span className="px-4 py-2 rounded-full bg-green-950 text-green-400 text-xs sm:text-sm font-medium shadow-md hover:bg-green-600 transition">
               Creates Study Guides
             </span>
-            {/* Add other tags similarly */}
-            {/* ... */}
+
+
           </div>
           <p className="text-sm sm:text-base text-neutral-300">
             Elevate your study sessions with personalized learning tailored just for you. Our intelligent AI assistant creates customized study plans by analyzing your strengths and areas for improvement. This optimizes your study time by focusing on the topics that matter most to you, boosting retention and confidence. Utilizing adaptive learning technology and data analytics, we deliver study guides and practice materials that maximize your learning efficiency. Experience a smarter way to study that adjusts to your unique learning style, helping you achieve better results in less time.
@@ -228,8 +227,8 @@ export default function Home() {
             <span className="px-4 py-2 rounded-full bg-orange-950 text-orange-400 text-xs sm:text-sm font-medium shadow-md hover:bg-orange-600 transition">
               Summarizes Textbooks
             </span>
-            {/* Add other tags similarly */}
-            {/* ... */}
+
+
           </div>
           <p className="text-sm sm:text-base text-neutral-300">
             Transform complex topics into clear, understandable concepts with our AI-powered learning platform. Unlock a deeper understanding of your coursework as we simplify complicated subjects by providing clear explanations and interactive resources. This enhances comprehension by presenting information in an easy-to-digest format, aiding long-term retention. Employing natural language processing and interactive AI, our platform delivers content that adapts to your needs, making learning engaging and accessible. Embrace a more intuitive learning experience that empowers you to master any subject with confidence.
