@@ -12,7 +12,7 @@ export default function Home() {
         X
       </Link>
 
-      {/* Solve Section Positioned Higher */}
+     
       <div className="text-center mb-8">
         <h1 className="text-3xl font-semibold text-black mb-6">Solve</h1>
         <label htmlFor="options" className="block text-neutral-400">Add your questions below to solve</label>

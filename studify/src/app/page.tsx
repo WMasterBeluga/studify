@@ -28,7 +28,7 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Subtext */}
+        
         <div className="flex justify-center">
           <h4 className="text-xs sm:text-sm text-center text-neutral-400">
             Free with ads. Get ad-free learning starting at $4/month.
@@ -57,10 +57,10 @@ export default function Home() {
           </div>
         </div>
 
-        {/* Trusted Universities Section */}
+
         <Colleges />
 
-        {/* Solve Section */}
+        
         <div className="mx-4 my-11">
           <h1 className="text-lg sm:text-xl font-base text-black my-2">Solve</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
@@ -77,7 +77,6 @@ export default function Home() {
           </p>
         </div>
 
-        {/* Study Section */}
         <div className="mx-4 my-11">
           <h1 className="text-lg sm:text-xl font-base text-black my-2">Study</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
@@ -94,7 +93,7 @@ export default function Home() {
             Transform your study sessions with a custom AI-powered approach. Our intelligent assistant crafts study plans tailored to your needs, focusing on areas for growth. Using adaptive learning technology, it generates study guides and materials that optimize your time and boost confidence. Enjoy a smarter, more effective way to reach your academic goals.          </p>
         </div>
 
-        {/* Learn Section */}
+        
         <div className="mx-4 my-11">
           <h1 className="text-lg sm:text-xl font-base text-black my-2">Summarize</h1>
           <h2 className="text-2xl sm:text-3xl font-semibold text-black my-2">
