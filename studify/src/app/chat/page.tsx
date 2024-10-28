@@ -21,7 +21,7 @@ export default function Home() {
                   <div className="flex flex-col h-full justify-between">
                     {/* Dropdown Menu */}
                     <div>
-                      <h1 className="text-3xl font-semibold text-black mb-6">Studify AI</h1>
+                      <h1 className="text-3xl font-semibold text-black mb-6">Hi User</h1>
                       <label htmlFor="options" className="block text-neutral-400">What do you want to do?</label>
                       <select
                         id="options"
