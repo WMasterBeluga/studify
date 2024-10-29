@@ -33,7 +33,6 @@ export default function footer() {
                         <ul className="space-y-0 sm:space-y-1 md:space-y-2">
                             <li><a href="#" className="hover:text-neutral-400">Guides</a></li>
                             <li><a href="#" className="hover:text-neutral-400">FAQ</a></li>
-                            <li><a href="#" className="hover:text-neutral-400">Posts</a></li>
                             <li><a href="#" className="hover:text-neutral-400">Support</a></li>
                         </ul>
                     </div>
@@ -44,7 +43,6 @@ export default function footer() {
                         <ul className="space-y-0 sm:space-y-1 md:space-y-2">
                             <li><a href="#" className="hover:text-neutral-400">Privacy Policy</a></li>
                             <li><a href="#" className="hover:text-neutral-400">Terms of Service</a></li>
-                            <li><a href="#" className="hover:text-neutral-400">Cookie Policy</a></li>
                             <li><a href="#" className="hover:text-neutral-400">Data Processing</a></li>
                         </ul>
                     </div>

@@ -67,7 +67,7 @@ export default function Home() {
             A world-class tutor at your fingertips
           </h2>
           <div className="flex flex-wrap gap-2 my-4">
-            <span className="px-4 py-2 rounded-full bg-purple-400 text-purple-700 text-xs sm:text-xs font-medium shadow-md hover:bg-purple-600 transition">
+            <span className="px-4 py-2 rounded-full bg-purple-300 text-purple-700 text-xs sm:text-xs font-medium shadow-md hover:bg-purple-600 transition">
               Powered by GPT-4o mini
             </span>
            
@@ -84,7 +84,7 @@ export default function Home() {
             Personalized Study Sessions Tailored Just for You
           </h2>
           <div className="flex flex-wrap gap-2 my-4">
-            <span className="px-4 py-2 rounded-full bg-green-300 text-green-700 text-xs sm:text-xs font-medium shadow-md hover:bg-green-600 transition">
+            <span className="px-4 py-2 rounded-full bg-green-200 text-green-700 text-xs sm:text-xs font-medium shadow-md hover:bg-green-600 transition">
               Creates Study Guides
             </span>
 
@@ -101,7 +101,7 @@ export default function Home() {
             Effortless Video-to-Text Summaries
           </h2>
           <div className="flex flex-wrap gap-2 my-4">
-            <span className="px-4 py-2 rounded-full bg-orange-300 text-orange-700 text-xs sm:text-xs font-medium shadow-md hover:bg-orange-600 transition">
+            <span className="px-4 py-2 rounded-full bg-orange-200 text-orange-700 text-xs sm:text-xs font-medium shadow-md hover:bg-orange-600 transition">
               Summarizes Textbooks
             </span>
 

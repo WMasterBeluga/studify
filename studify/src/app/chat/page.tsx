@@ -1,39 +1,64 @@
 import Image from "next/image";
 import Link from 'next/link';
 import Navbar from "../components/Navbar"; 
-import Footer from "../components/footer"
+import Footer from "../components/footer";
 
 export default function Home() {
   return (
     <div className="flex justify-center">
       <div className="max-w-screen-2xl w-full px-4 lg:px-20">
-        <div className="w-full"></div>
-          <Navbar />
-        <div className="mt-5">
-          
+        <Navbar />
 
-          {/* Neutral Box Starts Here */}
-          <div className="flex justify-center mt-8">
-            <div className="border-0 rounded-lg w-full h-[600px]">
-              <div className="flex flex-wrap h-full">
-                {/* Left Half */}
-                <div className="w-full md:w-1/2 p-8">
-                  <div className="flex flex-col h-full justify-between">
-                    {/* Dropdown Menu */}
-                    <div>
-                      <h1 className="text-3xl font-semibold text-black mb-6">Hi User</h1>
-                      <label htmlFor="options" className="block text-neutral-400">What do you want to do?</label>
-                      <select
-                        id="options"
-                        className="mt-4 block w-full border border-neutral-300 bg-white rounded-md text-neutral-500 py-3 px-3 focus:outline-none appearance-none"
-                      >
-                        <option className="text-black">Solve</option>
-                        <option className="text-black">Summarize Lecture</option>
-                        <option className="text-black">Generate Study Guide</option>
-                      </select>
-                    </div>
+        {/* Centered Content Starts Here */}
+        <div className="flex flex-col items-center mt-12">
+          <div className="text-center mb-8">
+            <h1 className="text-3xl font-semibold text-black mb-6">Hi User</h1>
+            <label htmlFor="options" className="block text-neutral-400">What do you want to do?</label>
+          </div>
 
-                    {/* Upload Button and Send Button */}
+          {/* Responsive Boxes with Links */}
+          <div className="flex flex-wrap justify-center gap-6 mt-8 w-full">
+            {/* Box 1: Solve */}
+            <div className="border border-neutral-300 rounded-lg p-6 w-full sm:w-1/3 md:w-1/4 lg:w-1/5">
+              <Link href="/solve" className="text-center">
+                <h2 className="text-xl font-semibold mb-2 text-black">Solve</h2>
+                <p className="text-sm text-neutral-500">
+                  Get step-by-step solutions to homework problems with AI assistance.
+                </p>
+              </Link>
+            </div>
+
+            {/* Box 2: Summarize */}
+            <div className="border border-neutral-300 rounded-lg p-6 w-full sm:w-1/3 md:w-1/4 lg:w-1/5">
+              <Link href="/summarize" className="text-center">
+                <h2 className="text-xl font-semibold mb-2 text-black">Summarize</h2>
+                <p className="text-sm text-neutral-500">
+                  Turn video lectures into concise, easy-to-read notes.
+                </p>
+              </Link>
+            </div>
+
+            {/* Box 3: Study */}
+            <div className="border border-neutral-300 rounded-lg p-6 w-full sm:w-1/3 md:w-1/4 lg:w-1/5">
+              <Link href="/study" className="text-center">
+                <h2 className="text-xl font-semibold mb-2 text-black">Study</h2>
+                <p className="text-sm text-neutral-500">
+                  Generate customized study guides from your class PDFs for focused learning.
+                </p>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <Footer />
+      </div>
+    </div>
+  );
+}
+
+
+
+{/* Upload Button and Send Button 
                     <div className="flex items-center mt-4">
                       <button className="bg-black hover:bg-neutral-300 text-white font-semibold py-3 px-4 rounded-full flex-grow">
                         Upload File
@@ -44,22 +69,4 @@ export default function Home() {
                         </svg>
                       </button>
 
-                    </div>
-                  </div>
-                </div>
-                {/* Right Half */}
-                <div className="w-full md:w-1/2 p-8">
-                  <div className="border-neutral-300 rounded-md p-4 h-full border">
-                    <p className="text-neutral-400">Awaiting question</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          {/* Neutral Box Ends Here */}
-        </div>
-        <Footer />
-      </div>
-    </div>
-  );
-}
+                    </div> */}
