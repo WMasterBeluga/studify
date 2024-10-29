@@ -27,7 +27,7 @@ export default function Navbar() {
               <Link href="/chat" className="text-black hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
                 Sign up
               </Link>
-              <Link href="#contact" className="text-black hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
+              <Link href="/login" className="text-black hover:text-gray-300 px-3 py-2 rounded-md text-sm font-medium">
                 Login
               </Link>
             </div>
