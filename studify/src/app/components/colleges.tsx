@@ -90,10 +90,10 @@ export default function colleges() {
 
             <div className="flex justify-center items-center">
               <Image
-                src="/pngtree-columbia-university-png-image_7775958.png"
-                alt="Columbia University Logo"
-                width={85}
-                height={85}
+                src="/UCSD-Symbol.png"
+                alt="UCSD Logo"
+                width={90}
+                height={90}
                 className="object-contain"
               />
             </div>
@@ -120,8 +120,8 @@ export default function colleges() {
 
             <div className="flex justify-center items-center">
               <Image
-                src="/kisspng-university-of-illinois-at-chicago-northwestern-uni-state-polytechnic-of-jember-5b3eccb721e153.5015009615308422951388.jpg"
-                alt="University of Illinois at Chicago Logo"
+                src="/PrimaryMonogram.png"
+                alt="USC Logo"
                 width={90}
                 height={90}
                 className="object-contain"
