@@ -31,7 +31,7 @@ export default function Home() {
         
         <div className="flex justify-center">
           <h4 className="text-xs sm:text-sm text-center text-neutral-400">
-            Free with ads. Get ad-free learning starting at $4/month.
+            Free with ads. Get ad-free learning starting at $4/month!
           </h4>
         </div>
 
