@@ -34,8 +34,8 @@ export default function Home() {
 
           {/* Box 2 */}
           <div className="flex-1 p-4 m-2 h-full flex flex-col space-y-4">
-            <h2 className="text-2xl font-semibold">Creating Notes</h2>
-            <h3 className="text-lg text-neutral-500">Untitled Note</h3>
+            <h2 className="text-2xl font-semibold">Chat with Studify</h2>
+            <h3 className="text-lg text-neutral-500">New Chat</h3>
             <div className="flex-1 bg-black rounded-lg"></div>
           </div>
         </div>

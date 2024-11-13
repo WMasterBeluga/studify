@@ -27,8 +27,6 @@ export default function Home() {
                 <h2 className="text-neutral-400 font-bold">Drag and drop file</h2>
                 <p className="text-neutral-400 text-sm">Supports MP4, MP3, MPGA, MPEG, WAV, and WEBM </p>
               </div>
-
-              <Input />
             </div>
           </div>
 
