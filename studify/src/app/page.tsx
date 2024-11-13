@@ -46,7 +46,7 @@ export default function Home() {
           <div className="h-20 sm:h-40 px-7 py-7 rounded-xl ">
             <h1 className="text-xl sm:text-2xl font-semibold text-black mb-3">Study</h1>
             <p className="text-neutral-400 text-xs sm:text-base">
-              Elevate your study sessions—experience personalized learning with intelligent AI guidance.
+              Elevate your study sessions with personalized learning with intelligent AI guidance.
             </p>
           </div>
           <div className=" h-20 sm:h-40 px-7 py-7 rounded-xl">
