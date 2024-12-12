@@ -13,7 +13,7 @@ export default function Home() {
           <h2 className="text-xl sm:text-2xl font-bold mb-6 text-gray-800">Login</h2>
           
           {/* Google Login Button */}
-          <button className="flex items-center justify-center w-full bg-black hover:bg-neutral-300 text-white font-semibold py-2 px-4 rounded-md mb-4">
+          <button className="flex items-center justify-center w-full bg-black hover:bg-neutral-600 text-white font-semibold py-2 px-4 rounded-md mb-4">
             <Image src="/Google_Icons-09-512.webp" alt="Google Icon" width={30} height={30} className="mr-2" />
             Login with Google
           </button>
